@@ -159,3 +159,22 @@ It will improve the overall experience for both API consumers and maintainers.
 - Avoid overly complex resource URIs with multiple levels of relationships.
 - Ensure that references to related resources can be easily navigated from a resource's URI.
 - Use resource URIs in a hierarchy (e.g., /customers/1/orders) to improve intuitiveness.
+
+### Logging and Observability
+
+#### Logging Best Practices
+
+- Implement comprehensive logging throughout your API to capture important events, errors, and debugging information.
+- Ensure log levels (e.g., INFO, ERROR) provide the appropriate level of detail.
+- Use structured log formats (e.g., JSON) for easier parsing and analysis.
+- Log relevant information, including request and response details, timestamps, and contextual data.
+- Centralize and manage logs using dedicated logging solutions or tools.
+- Consider log rotation and retention policies to manage log file sizes.
+
+#### Observability Best Practices
+
+- Implement observability mechanisms to gain insights into your API's behavior and performance.
+- Use distributed tracing tools to trace requests across services and endpoints.
+- Collect and analyze metrics on API usage, response times, error rates, and resource utilization.
+- Implement health checks to monitor the status of your API and its dependencies.
+- Set up alerts and notifications to proactively detect and respond to issues.
